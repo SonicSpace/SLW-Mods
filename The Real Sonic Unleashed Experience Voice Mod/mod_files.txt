@@ -1,0 +1,8 @@
+delete mod.ini
+delete System.json
+delete core_UnlVEng\Sonic2013_0\Sound\se_voice_sonic_action_e.acb
+delete core_UnlVJpn\Sonic2013_0\Sound\se_voice_sonic_action_e.acb
+add mod.ini
+add System.json
+add core_UnlVEng/Sonic2013_0/Sound/se_voice_sonic_action_e.acb
+add core_UnlVJpn/Sonic2013_0/Sound/se_voice_sonic_action_e.acb

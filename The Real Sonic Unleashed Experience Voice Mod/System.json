@@ -1,0 +1,104 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "The Sonic Unleashed Experience Voice - Settings",
+         "Elements": [
+            {
+               "Name": "IncludeDir0",
+               "DisplayName": "Select Voice Type:",
+               "Description": [
+                  "This system determines which voices will be used within the game. The Real Jason & Jun'ichi Voice Mod - English or Japanese."
+               ],
+               "Type": "VoiceEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "core_UnlVEng"
+            
+            },
+
+
+            {
+               "Name": "IncludeDir1",
+               "DisplayName": "Unleashed Super Sonic Music",
+               "Description": [
+                  "Play as Super Sonic, but with the song Super Sonic vs. Perfect Dark Gaia."
+               ],
+               "Type": "SuperEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "core_UnlSuper"
+
+            },
+
+            
+            {
+               "Name": "IncludeDir2",
+               "DisplayName": "Unleashed Results Music",
+               "Description": [
+                  "Play with Sonic Unleashed Result Music."
+               ],
+               "Type": "ResultsEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "core_UnlResul"   
+            }
+         ]
+      }
+   ],
+   "Enums": {
+      "VoiceEnum": [
+         {
+            "DisplayName": "English (Jason Griffith)",
+            "Value": "core_UnlVEng",
+            "Description": [
+               "Use the English voice made for Sonic Unleashed (Jason Griffith)"
+            ]
+         },
+         {
+            "DisplayName": "Japanese (Jun'ichi Kanemaru)",
+            "Value": "core_UnlVJpn",
+            "Description": [
+               "Use the Japanese voice made for Sonic Unleashed (Jun'ichi Kanemaru)"
+            ]
+         }
+      ],
+
+
+      "ResultsEnum": [
+         {
+            "DisplayName": "Enable",
+            "Value": "core_UnlResul",
+            "Description": [
+               "Enable Sonic Unleashed Results Music."
+            ]
+         },
+         {
+            "DisplayName": "Disable",
+            "Value": "core_Nothing",
+            "Description": [
+               "Disable Sonic Unleashed Results Music."
+            ]
+         }
+      ],
+
+
+      "SuperEnum": [
+         {
+            "DisplayName": "Enable",
+            "Value": "core_UnlSuper",
+            "Description": [
+               "Enable Super Sonic Music (Super Sonic vs. Perfect Dark Gaia)"
+            ]
+         },
+         {
+            "DisplayName": "Disable",
+            "Value": "core_Nothing",
+            "Description": [
+               "Disable Super Sonic Music (Super Sonic vs. Perfect Dark Gaia)"
+            ]
+         }   
+      ]
+   },
+   "IniFile": "mod.ini"
+}
